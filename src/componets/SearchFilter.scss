@@ -1,0 +1,16 @@
+
+@import '../style/variables';
+
+
+.search-filter {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+
+  input, select {
+    padding: 0.5rem;
+    border-radius: $border-radius;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+  }
+}
